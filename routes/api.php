@@ -21,3 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('/attributes', 'AttributeController');
 
 Route::resource('/regions', 'RegionController');
+
+Route::resource('/monsters', 'MonsterController');
+
